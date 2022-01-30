@@ -20,11 +20,11 @@
 // var taka1, taka2;
 // totalExpenditure('Hello', 'Honey');
 
-function totalMarks(sub1, sub2, sub3){
-    var total= sub1+sub2+sub3;
-    return total;
-}
+// 
 
-var Bangla=12, English=23, Math= 67;
-total=totalMarks(Bangla, English, Math);
-console.log(total);
+function namata(number){
+    for(var i=1; i<=10; i++){
+        console.log(number,"*",i,"=",number*i);
+    }
+}
+namata(13);
